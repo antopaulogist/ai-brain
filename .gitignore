@@ -1,0 +1,14 @@
+# Local editor and operating-system clutter
+.DS_Store
+Thumbs.db
+*.swp
+
+# Private settings and credentials never belong in the hub
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+
+# Optional, disposable maintainer verification workspace
+.verification/
